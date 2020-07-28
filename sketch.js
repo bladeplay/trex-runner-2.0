@@ -78,7 +78,10 @@ function draw() {
     ground.velocityX = -(6 + 3*score/100);
     //scoring
     score = score + Math.round(World.frameRate/60);
-    
+    if(keyDown("space")&& ){
+      trex.velocityY = -12 ;
+     
+    }
     
     
     if (ground.x < 0){
